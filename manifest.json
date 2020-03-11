@@ -1,0 +1,20 @@
+{
+  "name": "Bug Find Extension for reporting",
+  "version": "1.0",
+  "description": "This extension will be used for reporting bugs found in a uniform way to various services",
+  "manifest_version": 2,
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "activeTab",
+    "tabCapture",
+    "desktopCapture"
+  ],
+  "browser_action": {
+    "default_title": "BugFix"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
